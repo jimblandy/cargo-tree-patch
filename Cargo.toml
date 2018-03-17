@@ -1,0 +1,5 @@
+[workspace]
+members = [ "user", "rust-unreachable" ]
+
+[patch.crates-io]
+unreachable = { path = "rust-unreachable" }
